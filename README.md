@@ -1,40 +1,98 @@
-# Data Engineering Pipeline (Airflow + Spark + ADLS + Azure SQL)
+# Data Engineering Pipeline (Airflow + Spark + ADLS + Azure SQL + Power BI)
 
-An end-to-end batch pipeline that generates dummy sales data, ingests it into **Azure Data Lake Storage Gen2 (ADLS)**, transforms it with **PySpark + Delta Lake**, runs **data quality checks**, and loads a **fact table** into **Azure SQL** for reporting (e.g., a Power BI dashboard built on `dbo.fact_sales`).
+An end-to-end **batch data engineering pipeline** that generates dummy sales data, ingests it into **Azure Data Lake Storage Gen2 (ADLS)**, transforms it using **PySpark + Delta Lake**, performs **data quality checks**, and loads a curated **fact table** into **Azure SQL**, which is then consumed by **Power BI** for reporting and analytics.
 
-## Architecture (daily)
+---
 
-1. **Create dummy data** → writes `data/YYYY/MM/DD/sales_raw.csv`
-2. **Ingest to ADLS** → uploads CSV to `raw/sales/YYYY/MM/DD/sales_raw.csv`
-3. **Spark ETL** → reads raw CSV, enriches + derives measures, writes **Delta** to `processed/sales/` (partitioned)
-4. **Data quality checks** → validates processed Delta data
-5. **Load to Azure SQL** → writes `dbo.fact_sales` (source for Power BI)
+## Architecture (Daily Batch)
 
-Orchestrated by **Apache Airflow**; Spark runs in a Docker container and is triggered from Airflow via `docker exec`.
+1. **Data Generation**  
+   Generates dummy sales data and writes CSV files to  
+   `data/YYYY/MM/DD/sales_raw.csv`
 
-## Repo layout
+2. **Ingestion to ADLS Gen2**  
+   Uploads raw CSV files to  
+   `raw/sales/YYYY/MM/DD/sales_raw.csv`
 
-- `dags/sales_pipeline_dag.py` — Airflow DAG (`sales_data_pipeline`)
-- `data/data_creation.py` — dummy data generator (creates partitioned CSVs under `data/`)
-- `ingestion/upload_to_adls.py` — uploads CSV to ADLS Gen2 (`raw` filesystem)
-- `spark_jobs/sales_etl.py` — PySpark ETL → Delta write to ADLS Gen2 (`processed` filesystem)
-- `data_quality/expectations.py` — PySpark data quality checks on processed Delta
-- `spark_jobs/load_to_sql.py` — loads curated data into Azure SQL (`dbo.fact_sales`)
-- `sql/create_tables.sql` — starter DDL for the fact table (adjust types if needed)
-- `docker/docker-compose.yml` — local runtime (Airflow + Spark containers)
-- `docker/airflow/Dockerfile`, `docker/spark/Dockerfile` — container images
+3. **Spark ETL (PySpark + Delta Lake)**  
+   - Reads raw data from ADLS  
+   - Cleans, enriches, and derives business metrics  
+   - Writes curated data as **Delta tables** to  
+     `processed/sales/` (partitioned by date)
+
+4. **Data Quality Checks**  
+   Validates processed Delta data (null checks, schema validation, business rules)
+
+5. **Load to Azure SQL**  
+   Loads curated data into `dbo.fact_sales`
+
+6. **Power BI Reporting**  
+   Power BI connects to **Azure SQL** and builds dashboards and reports on top of  
+   `dbo.fact_sales`
+
+All steps are orchestrated using **Apache Airflow**. Spark jobs run inside Docker containers and are triggered from Airflow via `docker exec`.
+
+---
+
+## End-to-End Flow
+
+```
+Dummy Data
+   ↓
+Local CSV
+   ↓
+ADLS Gen2 (raw)
+   ↓
+Spark ETL + Delta Lake
+   ↓
+ADLS Gen2 (processed)
+   ↓
+Data Quality Checks
+   ↓
+Azure SQL (dbo.fact_sales)
+   ↓
+Power BI Dashboards & Reports
+```
+
+---
+
+## Repository Structure
+
+```
+├── dags/
+│   └── sales_pipeline_dag.py
+├── data/
+│   └── data_creation.py
+├── ingestion/
+│   └── upload_to_adls.py
+├── spark_jobs/
+│   ├── sales_etl.py
+│   └── load_to_sql.py
+├── data_quality/
+│   └── expectations.py
+├── sql/
+│   └── create_tables.sql
+├── docker/
+│   ├── docker-compose.yml
+│   ├── airflow/Dockerfile
+│   └── spark/Dockerfile
+└── .env
+```
+
+---
 
 ## Prerequisites
 
-- Docker Desktop (Linux containers; WSL2 recommended on Windows)
-- An **ADLS Gen2** Storage Account with **file systems/containers**:
-  - `raw`
-  - `processed`
-- An **Azure SQL** database with a `dbo.fact_sales` table
+- Docker Desktop (Linux containers, WSL2 recommended on Windows)
+- Azure Data Lake Storage Gen2 (`raw`, `processed`)
+- Azure SQL Database
+- Power BI Desktop
+
+---
 
 ## Configuration
 
-Create a `.env` file in the project root (do **not** commit real secrets). Required variables:
+Create a `.env` file in the project root:
 
 ```env
 AZURE_STORAGE_ACCOUNT_NAME=your_storage_account
@@ -46,40 +104,42 @@ AZURE_SQL_USER=your_username
 AZURE_SQL_PASSWORD=your_password
 ```
 
-## Run locally (Airflow + Spark in Docker)
+---
 
-Start the stack:
+## Run Locally
 
 ```bash
 docker compose -f docker/docker-compose.yml up --build
 ```
 
-Open Airflow:
+- Airflow UI: http://localhost:8080  
+- Login: admin / admin  
+- Trigger DAG: `sales_data_pipeline`
 
-- URL: `http://localhost:8080`
-- Username: `admin`
-- Password: `admin`
+---
 
-Trigger the DAG:
+## Data Model – dbo.fact_sales
 
-- DAG id: `sales_data_pipeline`
-- Schedule: `@daily`
-- Manual run with a specific date: trigger with config like:
-  ```json
-  { "date": "2026-01-27" }
-  ```
+- order_id  
+- product_id  
+- customer_id  
+- quantity  
+- price  
+- total_amount  
+- price_bucket  
+- order_date  
+- order_year  
+- order_month  
+- processing_date  
 
-## Data model (fact table)
-
-The SQL load job writes to `dbo.fact_sales` from the curated/processed dataset. Columns written by the Spark load step:
-
-- `order_id`, `product_id`, `customer_id`
-- `quantity`, `price`, `total_amount`, `price_bucket`
-- `order_date`, `order_year`, `order_month`, `processing_date`
-
-Note: IDs produced by the dummy generator are string-shaped (e.g., `ORD000000123`, `PROD100001`). Ensure your Azure SQL schema uses compatible types (e.g., `VARCHAR`) before running the load.
-
+---
 ## Power BI
 
-Connect Power BI to Azure SQL and build visuals on top of `dbo.fact_sales` (measures like `SUM(total_amount)`, trends by `order_year/order_month`, `price_bucket`, `category` if included, etc.).
+Power BI connects directly to **Azure SQL** and uses `dbo.fact_sales` as the semantic layer for:
 
+- Sales trends
+- Revenue analysis
+- Product and customer insights
+- Time-based aggregations
+
+This completes a full **data engineering → analytics** workflow.
