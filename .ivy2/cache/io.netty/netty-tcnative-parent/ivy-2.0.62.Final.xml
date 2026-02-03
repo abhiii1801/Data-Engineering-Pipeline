@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0" xmlns:m="http://ant.apache.org/ivy/maven">
+	<info organisation="io.netty"
+		module="netty-tcnative-parent"
+		revision="2.0.62.Final"
+		status="release"
+		publication="20231006124545"
+	>
+		<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt" />
+		<description homepage="https://github.com/netty/netty-tcnative/">
+		A Mavenized fork of Tomcat Native which incorporates various patches
+		</description>
+		<m:properties__defaultJarFile>${project.build.directory}/${project.build.finalName}.jar</m:properties__defaultJarFile>
+		<m:properties__nativeJarWorkdir>${project.build.directory}/native-jar-work</m:properties__nativeJarWorkdir>
+		<m:properties__msvcSslLibDirs>${sslHome}/lib</m:properties__msvcSslLibDirs>
+		<m:properties__strip.skip>false</m:properties__strip.skip>
+		<m:properties__aprVersion>1.7.4</m:properties__aprVersion>
+		<m:properties__forceConfigure>false</m:properties__forceConfigure>
+		<m:properties__msvcSslLibs>libssl.lib;libcrypto.lib</m:properties__msvcSslLibs>
+		<m:properties__vsStaticTemplateFile>../vs2010.vcxproj.static.template</m:properties__vsStaticTemplateFile>
+		<m:properties__nativeLibOsParts>${os.detected.name}_${os.detected.arch}</m:properties__nativeLibOsParts>
+		<m:properties__opensslSha256>a0ce69b8b97ea6a35b96875235aa453b966ba3cba8af2de23657d8b6767d6539</m:properties__opensslSha256>
+		<m:properties__nativeJarFile>${project.build.directory}/${project.build.finalName}-${os.detected.classifier}.jar</m:properties__nativeJarFile>
+		<m:properties__junit.version>5.9.0</m:properties__junit.version>
+		<m:properties__osxCrossCompile>false</m:properties__osxCrossCompile>
+		<m:properties__skipJapicmp>false</m:properties__skipJapicmp>
+		<m:properties__maven.compiler.source>1.6</m:properties__maven.compiler.source>
+		<m:properties__javaModuleNameClassifier>${os.detected.name}.${os.detected.arch}</m:properties__javaModuleNameClassifier>
+		<m:properties__macOsxDeploymentTarget>MACOSX_DEPLOYMENT_TARGET=10.9</m:properties__macOsxDeploymentTarget>
+		<m:properties__aprSha256>fc648de983f3a2a6c9e78dea1f180639bd2fad6c06d556d4367a701fe5c35577</m:properties__aprSha256>
+		<m:properties__jniUtilIncludeDir>${project.build.directory}/netty-jni-util/</m:properties__jniUtilIncludeDir>
+		<m:properties__javaModuleName>${javaDefaultModuleName}</m:properties__javaModuleName>
+		<m:properties__enforcer.plugin.version>1.4.1</m:properties__enforcer.plugin.version>
+		<m:properties__checkstyle.skip>true</m:properties__checkstyle.skip>
+		<m:properties__linkStatic>false</m:properties__linkStatic>
+		<m:properties__compileLibrary>false</m:properties__compileLibrary>
+		<m:properties__sslHome>${project.build.directory}/ssl</m:properties__sslHome>
+		<m:properties__opensslVersion>${opensslMinorVersion}${opensslPatchVersion}</m:properties__opensslVersion>
+		<m:properties__opensslDynamicDir>../openssl-dynamic</m:properties__opensslDynamicDir>
+		<m:properties__cmakeOsxDeploymentTarget>-DCMAKE_OSX_DEPLOYMENT_TARGET=10.9</m:properties__cmakeOsxDeploymentTarget>
+		<m:properties__boringsslBranch>chromium-stable</m:properties__boringsslBranch>
+		<m:properties__maven.javadoc.failOnError>false</m:properties__maven.javadoc.failOnError>
+		<m:properties__aprSourceDir>${project.build.directory}/apr-source</m:properties__aprSourceDir>
+		<m:properties__jniClassifier>${os.detected.name}-${os.detected.arch}</m:properties__jniClassifier>
+		<m:properties__javaDefaultModuleName>io.netty.internal.tcnative</m:properties__javaDefaultModuleName>
+		<m:properties__boringsslCommitSha>dd5219451c3ce26221762a15d867edf43b463bb2</m:properties__boringsslCommitSha>
+		<m:properties__libresslVersion>3.4.3</m:properties__libresslVersion>
+		<m:properties__opensslMinorVersion>3.1.2</m:properties__opensslMinorVersion>
+		<m:properties__nativeLibOnlyDir>${project.build.directory}/native-lib-only</m:properties__nativeLibOnlyDir>
+		<m:properties__msvcSslIncludeDirs>${sslHome}/include</m:properties__msvcSslIncludeDirs>
+		<m:properties__javaModuleNameNative>${javaDefaultModuleName}.openssl.${javaModuleNameClassifier}</m:properties__javaModuleNameNative>
+		<m:properties__archBits>64</m:properties__archBits>
+		<m:properties__netty.build.version>31</m:properties__netty.build.version>
+		<m:properties__jniUtilVersion>0.0.9.Final</m:properties__jniUtilVersion>
+		<m:properties__aprHome>${project.build.directory}/apr</m:properties__aprHome>
+		<m:properties__animal.sniffer.skip>true</m:properties__animal.sniffer.skip>
+		<m:properties__generatedSourcesDir>${project.build.directory}/generated-sources</m:properties__generatedSourcesDir>
+		<m:properties__jniArch>${os.detected.arch}</m:properties__jniArch>
+		<m:properties__forceAutogen>false</m:properties__forceAutogen>
+		<m:properties__maven.compiler.target>1.6</m:properties__maven.compiler.target>
+		<m:properties__libresslSha256>ff88bffe354818b3ccf545e3cafe454c5031c7a77217074f533271d63c37f08d</m:properties__libresslSha256>
+		<m:properties__opensslPatchVersion/>
+		<m:properties__project.build.sourceEncoding>UTF-8</m:properties__project.build.sourceEncoding>
+		<m:properties__arguments/>
+		<m:properties__sonatypeOssDistMgmtSnapshotsUrl>https://oss.sonatype.org/content/repositories/snapshots/</m:properties__sonatypeOssDistMgmtSnapshotsUrl>
+		<m:maven.plugins>org.apache.maven.plugins__maven-enforcer-plugin__1.2|org.apache.maven.plugins__maven-enforcer-plugin__1.2|org.apache.maven.plugins__maven-javadoc-plugin__3.3.1|null__maven-compiler-plugin__3.8.1|null__maven-surefire-plugin__2.22.2|com.github.siom79.japicmp__japicmp-maven-plugin__0.15.4|org.apache.maven.plugins__maven-dependency-plugin__null|null__maven-antrun-plugin__null|org.apache.felix__maven-bundle-plugin__5.1.1|null__maven-jar-plugin__3.0.2|null__maven-release-plugin__null</m:maven.plugins>
+	</info>
+	<configurations>
+		<conf name="default" visibility="public" description="runtime dependencies and master artifact can be used with this conf" extends="runtime,master"/>
+		<conf name="master" visibility="public" description="contains only the artifact published by this module itself, with no transitive dependencies"/>
+		<conf name="compile" visibility="public" description="this is the default scope, used if none is specified. Compile dependencies are available in all classpaths."/>
+		<conf name="provided" visibility="public" description="this is much like compile, but indicates you expect the JDK or a container to provide it. It is only available on the compilation classpath, and is not transitive."/>
+		<conf name="runtime" visibility="public" description="this scope indicates that the dependency is not required for compilation, but is for execution. It is in the runtime and test classpaths, but not the compile classpath." extends="compile"/>
+		<conf name="test" visibility="public" description="this scope indicates that the dependency is not required for normal use of the application, and is only available for the test compilation and execution phases." extends="runtime"/>
+		<conf name="system" visibility="public" description="this scope is similar to provided except that you have to provide the JAR which contains it explicitly. The artifact is always available and is not looked up in a repository."/>
+		<conf name="sources" visibility="public" description="this configuration contains the source artifact of this module, if any."/>
+		<conf name="javadoc" visibility="public" description="this configuration contains the javadoc artifact of this module, if any."/>
+		<conf name="optional" visibility="public" description="contains all optional dependencies"/>
+	</configurations>
+	<publications>
+	</publications>
+	<dependencies>
+		<dependency org="io.netty" name="netty-jni-util" rev="0.0.9.Final" force="true" conf="optional->compile(*),master(*)">
+			<artifact name="netty-jni-util" type="jar" ext="jar" conf="optional" m:classifier="sources"/>
+		</dependency>
+		<dependency org="io.netty" name="netty-build-common" rev="31" force="true" conf="test->runtime(*),master(*)"/>
+		<dependency org="org.junit.jupiter" name="junit-jupiter-api" rev="5.9.0" force="true" conf="test->runtime(*),master(*)"/>
+		<dependency org="org.junit.jupiter" name="junit-jupiter-engine" rev="5.9.0" force="true" conf="test->runtime(*),master(*)"/>
+	</dependencies>
+</ivy-module>

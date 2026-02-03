@@ -1,0 +1,3177 @@
+[
+  {
+    "product_id": "PROD100000",
+    "product_name": "Mobile Phone Variant 1",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100001",
+    "product_name": "Mobile Phone Variant 2",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100002",
+    "product_name": "Mobile Phone Variant 3",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100003",
+    "product_name": "Mobile Phone Variant 4",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100004",
+    "product_name": "Mobile Phone Variant 5",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100005",
+    "product_name": "Laptop Variant 1",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100006",
+    "product_name": "Laptop Variant 2",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100007",
+    "product_name": "Laptop Variant 3",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100008",
+    "product_name": "Laptop Variant 4",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100009",
+    "product_name": "Laptop Variant 5",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100010",
+    "product_name": "Tablet Variant 1",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100011",
+    "product_name": "Tablet Variant 2",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100012",
+    "product_name": "Tablet Variant 3",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100013",
+    "product_name": "Tablet Variant 4",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100014",
+    "product_name": "Tablet Variant 5",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100015",
+    "product_name": "Smart Watch Variant 1",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100016",
+    "product_name": "Smart Watch Variant 2",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100017",
+    "product_name": "Smart Watch Variant 3",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100018",
+    "product_name": "Smart Watch Variant 4",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100019",
+    "product_name": "Smart Watch Variant 5",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100020",
+    "product_name": "Headphones Variant 1",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100021",
+    "product_name": "Headphones Variant 2",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100022",
+    "product_name": "Headphones Variant 3",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100023",
+    "product_name": "Headphones Variant 4",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100024",
+    "product_name": "Headphones Variant 5",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100025",
+    "product_name": "Bluetooth Speaker Variant 1",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100026",
+    "product_name": "Bluetooth Speaker Variant 2",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100027",
+    "product_name": "Bluetooth Speaker Variant 3",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100028",
+    "product_name": "Bluetooth Speaker Variant 4",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100029",
+    "product_name": "Bluetooth Speaker Variant 5",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100030",
+    "product_name": "Power Bank Variant 1",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100031",
+    "product_name": "Power Bank Variant 2",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100032",
+    "product_name": "Power Bank Variant 3",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100033",
+    "product_name": "Power Bank Variant 4",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100034",
+    "product_name": "Power Bank Variant 5",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100035",
+    "product_name": "Keyboard Variant 1",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100036",
+    "product_name": "Keyboard Variant 2",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100037",
+    "product_name": "Keyboard Variant 3",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100038",
+    "product_name": "Keyboard Variant 4",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100039",
+    "product_name": "Keyboard Variant 5",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100040",
+    "product_name": "Mouse Variant 1",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100041",
+    "product_name": "Mouse Variant 2",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100042",
+    "product_name": "Mouse Variant 3",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100043",
+    "product_name": "Mouse Variant 4",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100044",
+    "product_name": "Mouse Variant 5",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100045",
+    "product_name": "Monitor Variant 1",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100046",
+    "product_name": "Monitor Variant 2",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100047",
+    "product_name": "Monitor Variant 3",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100048",
+    "product_name": "Monitor Variant 4",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100049",
+    "product_name": "Monitor Variant 5",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100050",
+    "product_name": "Printer Variant 1",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100051",
+    "product_name": "Printer Variant 2",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100052",
+    "product_name": "Printer Variant 3",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100053",
+    "product_name": "Printer Variant 4",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100054",
+    "product_name": "Printer Variant 5",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100055",
+    "product_name": "Router Variant 1",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100056",
+    "product_name": "Router Variant 2",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100057",
+    "product_name": "Router Variant 3",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100058",
+    "product_name": "Router Variant 4",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100059",
+    "product_name": "Router Variant 5",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100060",
+    "product_name": "Webcam Variant 1",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100061",
+    "product_name": "Webcam Variant 2",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100062",
+    "product_name": "Webcam Variant 3",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100063",
+    "product_name": "Webcam Variant 4",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100064",
+    "product_name": "Webcam Variant 5",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100065",
+    "product_name": "External Hard Drive Variant 1",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100066",
+    "product_name": "External Hard Drive Variant 2",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100067",
+    "product_name": "External Hard Drive Variant 3",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100068",
+    "product_name": "External Hard Drive Variant 4",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100069",
+    "product_name": "External Hard Drive Variant 5",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100070",
+    "product_name": "USB Flash Drive Variant 1",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100071",
+    "product_name": "USB Flash Drive Variant 2",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100072",
+    "product_name": "USB Flash Drive Variant 3",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100073",
+    "product_name": "USB Flash Drive Variant 4",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100074",
+    "product_name": "USB Flash Drive Variant 5",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100075",
+    "product_name": "Gaming Console Variant 1",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100076",
+    "product_name": "Gaming Console Variant 2",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100077",
+    "product_name": "Gaming Console Variant 3",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100078",
+    "product_name": "Gaming Console Variant 4",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100079",
+    "product_name": "Gaming Console Variant 5",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100080",
+    "product_name": "Graphics Card Variant 1",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100081",
+    "product_name": "Graphics Card Variant 2",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100082",
+    "product_name": "Graphics Card Variant 3",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100083",
+    "product_name": "Graphics Card Variant 4",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100084",
+    "product_name": "Graphics Card Variant 5",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100085",
+    "product_name": "Motherboard Variant 1",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100086",
+    "product_name": "Motherboard Variant 2",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100087",
+    "product_name": "Motherboard Variant 3",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100088",
+    "product_name": "Motherboard Variant 4",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100089",
+    "product_name": "Motherboard Variant 5",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100090",
+    "product_name": "RAM Variant 1",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100091",
+    "product_name": "RAM Variant 2",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100092",
+    "product_name": "RAM Variant 3",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100093",
+    "product_name": "RAM Variant 4",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100094",
+    "product_name": "RAM Variant 5",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100095",
+    "product_name": "SSD Variant 1",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100096",
+    "product_name": "SSD Variant 2",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100097",
+    "product_name": "SSD Variant 3",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100098",
+    "product_name": "SSD Variant 4",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100099",
+    "product_name": "SSD Variant 5",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100100",
+    "product_name": "Soundbar Variant 1",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100101",
+    "product_name": "Soundbar Variant 2",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100102",
+    "product_name": "Soundbar Variant 3",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100103",
+    "product_name": "Soundbar Variant 4",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100104",
+    "product_name": "Soundbar Variant 5",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100105",
+    "product_name": "Projector Variant 1",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100106",
+    "product_name": "Projector Variant 2",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100107",
+    "product_name": "Projector Variant 3",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100108",
+    "product_name": "Projector Variant 4",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100109",
+    "product_name": "Projector Variant 5",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100110",
+    "product_name": "VR Headset Variant 1",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100111",
+    "product_name": "VR Headset Variant 2",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100112",
+    "product_name": "VR Headset Variant 3",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100113",
+    "product_name": "VR Headset Variant 4",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100114",
+    "product_name": "VR Headset Variant 5",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100115",
+    "product_name": "Drone Variant 1",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100116",
+    "product_name": "Drone Variant 2",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100117",
+    "product_name": "Drone Variant 3",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100118",
+    "product_name": "Drone Variant 4",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100119",
+    "product_name": "Drone Variant 5",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100120",
+    "product_name": "Digital Camera Variant 1",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100121",
+    "product_name": "Digital Camera Variant 2",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100122",
+    "product_name": "Digital Camera Variant 3",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100123",
+    "product_name": "Digital Camera Variant 4",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100124",
+    "product_name": "Digital Camera Variant 5",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "PROD100125",
+    "product_name": "T-Shirt Variant 1",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100126",
+    "product_name": "T-Shirt Variant 2",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100127",
+    "product_name": "T-Shirt Variant 3",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100128",
+    "product_name": "T-Shirt Variant 4",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100129",
+    "product_name": "T-Shirt Variant 5",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100130",
+    "product_name": "Shirt Variant 1",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100131",
+    "product_name": "Shirt Variant 2",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100132",
+    "product_name": "Shirt Variant 3",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100133",
+    "product_name": "Shirt Variant 4",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100134",
+    "product_name": "Shirt Variant 5",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100135",
+    "product_name": "Jeans Variant 1",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100136",
+    "product_name": "Jeans Variant 2",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100137",
+    "product_name": "Jeans Variant 3",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100138",
+    "product_name": "Jeans Variant 4",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100139",
+    "product_name": "Jeans Variant 5",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100140",
+    "product_name": "Trousers Variant 1",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100141",
+    "product_name": "Trousers Variant 2",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100142",
+    "product_name": "Trousers Variant 3",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100143",
+    "product_name": "Trousers Variant 4",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100144",
+    "product_name": "Trousers Variant 5",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100145",
+    "product_name": "Jacket Variant 1",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100146",
+    "product_name": "Jacket Variant 2",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100147",
+    "product_name": "Jacket Variant 3",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100148",
+    "product_name": "Jacket Variant 4",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100149",
+    "product_name": "Jacket Variant 5",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100150",
+    "product_name": "Sweatshirt Variant 1",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100151",
+    "product_name": "Sweatshirt Variant 2",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100152",
+    "product_name": "Sweatshirt Variant 3",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100153",
+    "product_name": "Sweatshirt Variant 4",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100154",
+    "product_name": "Sweatshirt Variant 5",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100155",
+    "product_name": "Kurta Variant 1",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100156",
+    "product_name": "Kurta Variant 2",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100157",
+    "product_name": "Kurta Variant 3",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100158",
+    "product_name": "Kurta Variant 4",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100159",
+    "product_name": "Kurta Variant 5",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100160",
+    "product_name": "Kurti Variant 1",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100161",
+    "product_name": "Kurti Variant 2",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100162",
+    "product_name": "Kurti Variant 3",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100163",
+    "product_name": "Kurti Variant 4",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100164",
+    "product_name": "Kurti Variant 5",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100165",
+    "product_name": "Saree Variant 1",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100166",
+    "product_name": "Saree Variant 2",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100167",
+    "product_name": "Saree Variant 3",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100168",
+    "product_name": "Saree Variant 4",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100169",
+    "product_name": "Saree Variant 5",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100170",
+    "product_name": "Lehenga Variant 1",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100171",
+    "product_name": "Lehenga Variant 2",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100172",
+    "product_name": "Lehenga Variant 3",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100173",
+    "product_name": "Lehenga Variant 4",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100174",
+    "product_name": "Lehenga Variant 5",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100175",
+    "product_name": "Blazer Variant 1",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100176",
+    "product_name": "Blazer Variant 2",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100177",
+    "product_name": "Blazer Variant 3",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100178",
+    "product_name": "Blazer Variant 4",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100179",
+    "product_name": "Blazer Variant 5",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100180",
+    "product_name": "Shorts Variant 1",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100181",
+    "product_name": "Shorts Variant 2",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100182",
+    "product_name": "Shorts Variant 3",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100183",
+    "product_name": "Shorts Variant 4",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100184",
+    "product_name": "Shorts Variant 5",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100185",
+    "product_name": "Skirt Variant 1",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100186",
+    "product_name": "Skirt Variant 2",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100187",
+    "product_name": "Skirt Variant 3",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100188",
+    "product_name": "Skirt Variant 4",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100189",
+    "product_name": "Skirt Variant 5",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100190",
+    "product_name": "Top Variant 1",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100191",
+    "product_name": "Top Variant 2",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100192",
+    "product_name": "Top Variant 3",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100193",
+    "product_name": "Top Variant 4",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100194",
+    "product_name": "Top Variant 5",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100195",
+    "product_name": "Track Pants Variant 1",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100196",
+    "product_name": "Track Pants Variant 2",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100197",
+    "product_name": "Track Pants Variant 3",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100198",
+    "product_name": "Track Pants Variant 4",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100199",
+    "product_name": "Track Pants Variant 5",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100200",
+    "product_name": "Hoodie Variant 1",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100201",
+    "product_name": "Hoodie Variant 2",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100202",
+    "product_name": "Hoodie Variant 3",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100203",
+    "product_name": "Hoodie Variant 4",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100204",
+    "product_name": "Hoodie Variant 5",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100205",
+    "product_name": "Cap Variant 1",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100206",
+    "product_name": "Cap Variant 2",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100207",
+    "product_name": "Cap Variant 3",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100208",
+    "product_name": "Cap Variant 4",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100209",
+    "product_name": "Cap Variant 5",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100210",
+    "product_name": "Socks Variant 1",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100211",
+    "product_name": "Socks Variant 2",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100212",
+    "product_name": "Socks Variant 3",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100213",
+    "product_name": "Socks Variant 4",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100214",
+    "product_name": "Socks Variant 5",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100215",
+    "product_name": "Raincoat Variant 1",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100216",
+    "product_name": "Raincoat Variant 2",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100217",
+    "product_name": "Raincoat Variant 3",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100218",
+    "product_name": "Raincoat Variant 4",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100219",
+    "product_name": "Raincoat Variant 5",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100220",
+    "product_name": "Sweater Variant 1",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100221",
+    "product_name": "Sweater Variant 2",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100222",
+    "product_name": "Sweater Variant 3",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100223",
+    "product_name": "Sweater Variant 4",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100224",
+    "product_name": "Sweater Variant 5",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100225",
+    "product_name": "Innerwear Variant 1",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100226",
+    "product_name": "Innerwear Variant 2",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100227",
+    "product_name": "Innerwear Variant 3",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100228",
+    "product_name": "Innerwear Variant 4",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100229",
+    "product_name": "Innerwear Variant 5",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100230",
+    "product_name": "Nightwear Variant 1",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100231",
+    "product_name": "Nightwear Variant 2",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100232",
+    "product_name": "Nightwear Variant 3",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100233",
+    "product_name": "Nightwear Variant 4",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100234",
+    "product_name": "Nightwear Variant 5",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "PROD100235",
+    "product_name": "Mixer Grinder Variant 1",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100236",
+    "product_name": "Mixer Grinder Variant 2",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100237",
+    "product_name": "Mixer Grinder Variant 3",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100238",
+    "product_name": "Mixer Grinder Variant 4",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100239",
+    "product_name": "Mixer Grinder Variant 5",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100240",
+    "product_name": "Washing Machine Variant 1",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100241",
+    "product_name": "Washing Machine Variant 2",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100242",
+    "product_name": "Washing Machine Variant 3",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100243",
+    "product_name": "Washing Machine Variant 4",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100244",
+    "product_name": "Washing Machine Variant 5",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100245",
+    "product_name": "Refrigerator Variant 1",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100246",
+    "product_name": "Refrigerator Variant 2",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100247",
+    "product_name": "Refrigerator Variant 3",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100248",
+    "product_name": "Refrigerator Variant 4",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100249",
+    "product_name": "Refrigerator Variant 5",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100250",
+    "product_name": "Microwave Oven Variant 1",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100251",
+    "product_name": "Microwave Oven Variant 2",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100252",
+    "product_name": "Microwave Oven Variant 3",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100253",
+    "product_name": "Microwave Oven Variant 4",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100254",
+    "product_name": "Microwave Oven Variant 5",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100255",
+    "product_name": "Induction Cooktop Variant 1",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100256",
+    "product_name": "Induction Cooktop Variant 2",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100257",
+    "product_name": "Induction Cooktop Variant 3",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100258",
+    "product_name": "Induction Cooktop Variant 4",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100259",
+    "product_name": "Induction Cooktop Variant 5",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100260",
+    "product_name": "Electric Kettle Variant 1",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100261",
+    "product_name": "Electric Kettle Variant 2",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100262",
+    "product_name": "Electric Kettle Variant 3",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100263",
+    "product_name": "Electric Kettle Variant 4",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100264",
+    "product_name": "Electric Kettle Variant 5",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100265",
+    "product_name": "Iron Variant 1",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100266",
+    "product_name": "Iron Variant 2",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100267",
+    "product_name": "Iron Variant 3",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100268",
+    "product_name": "Iron Variant 4",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100269",
+    "product_name": "Iron Variant 5",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100270",
+    "product_name": "Water Purifier Variant 1",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100271",
+    "product_name": "Water Purifier Variant 2",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100272",
+    "product_name": "Water Purifier Variant 3",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100273",
+    "product_name": "Water Purifier Variant 4",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100274",
+    "product_name": "Water Purifier Variant 5",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100275",
+    "product_name": "Vacuum Cleaner Variant 1",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100276",
+    "product_name": "Vacuum Cleaner Variant 2",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100277",
+    "product_name": "Vacuum Cleaner Variant 3",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100278",
+    "product_name": "Vacuum Cleaner Variant 4",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100279",
+    "product_name": "Vacuum Cleaner Variant 5",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100280",
+    "product_name": "Air Cooler Variant 1",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100281",
+    "product_name": "Air Cooler Variant 2",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100282",
+    "product_name": "Air Cooler Variant 3",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100283",
+    "product_name": "Air Cooler Variant 4",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100284",
+    "product_name": "Air Cooler Variant 5",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100285",
+    "product_name": "Table Fan Variant 1",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100286",
+    "product_name": "Table Fan Variant 2",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100287",
+    "product_name": "Table Fan Variant 3",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100288",
+    "product_name": "Table Fan Variant 4",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100289",
+    "product_name": "Table Fan Variant 5",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100290",
+    "product_name": "Ceiling Fan Variant 1",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100291",
+    "product_name": "Ceiling Fan Variant 2",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100292",
+    "product_name": "Ceiling Fan Variant 3",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100293",
+    "product_name": "Ceiling Fan Variant 4",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100294",
+    "product_name": "Ceiling Fan Variant 5",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100295",
+    "product_name": "Lamp Variant 1",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100296",
+    "product_name": "Lamp Variant 2",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100297",
+    "product_name": "Lamp Variant 3",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100298",
+    "product_name": "Lamp Variant 4",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100299",
+    "product_name": "Lamp Variant 5",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100300",
+    "product_name": "Curtains Variant 1",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100301",
+    "product_name": "Curtains Variant 2",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100302",
+    "product_name": "Curtains Variant 3",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100303",
+    "product_name": "Curtains Variant 4",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100304",
+    "product_name": "Curtains Variant 5",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100305",
+    "product_name": "Bedsheet Variant 1",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100306",
+    "product_name": "Bedsheet Variant 2",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100307",
+    "product_name": "Bedsheet Variant 3",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100308",
+    "product_name": "Bedsheet Variant 4",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100309",
+    "product_name": "Bedsheet Variant 5",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100310",
+    "product_name": "Pillow Variant 1",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100311",
+    "product_name": "Pillow Variant 2",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100312",
+    "product_name": "Pillow Variant 3",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100313",
+    "product_name": "Pillow Variant 4",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100314",
+    "product_name": "Pillow Variant 5",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100315",
+    "product_name": "Mattress Variant 1",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100316",
+    "product_name": "Mattress Variant 2",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100317",
+    "product_name": "Mattress Variant 3",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100318",
+    "product_name": "Mattress Variant 4",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100319",
+    "product_name": "Mattress Variant 5",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100320",
+    "product_name": "Dining Table Variant 1",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100321",
+    "product_name": "Dining Table Variant 2",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100322",
+    "product_name": "Dining Table Variant 3",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100323",
+    "product_name": "Dining Table Variant 4",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100324",
+    "product_name": "Dining Table Variant 5",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100325",
+    "product_name": "Chair Variant 1",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100326",
+    "product_name": "Chair Variant 2",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100327",
+    "product_name": "Chair Variant 3",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100328",
+    "product_name": "Chair Variant 4",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100329",
+    "product_name": "Chair Variant 5",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100330",
+    "product_name": "Sofa Variant 1",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100331",
+    "product_name": "Sofa Variant 2",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100332",
+    "product_name": "Sofa Variant 3",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100333",
+    "product_name": "Sofa Variant 4",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100334",
+    "product_name": "Sofa Variant 5",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100335",
+    "product_name": "Wardrobe Variant 1",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100336",
+    "product_name": "Wardrobe Variant 2",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100337",
+    "product_name": "Wardrobe Variant 3",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100338",
+    "product_name": "Wardrobe Variant 4",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100339",
+    "product_name": "Wardrobe Variant 5",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100340",
+    "product_name": "Bookshelf Variant 1",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100341",
+    "product_name": "Bookshelf Variant 2",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100342",
+    "product_name": "Bookshelf Variant 3",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100343",
+    "product_name": "Bookshelf Variant 4",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100344",
+    "product_name": "Bookshelf Variant 5",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100345",
+    "product_name": "Wall Clock Variant 1",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100346",
+    "product_name": "Wall Clock Variant 2",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100347",
+    "product_name": "Wall Clock Variant 3",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100348",
+    "product_name": "Wall Clock Variant 4",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100349",
+    "product_name": "Wall Clock Variant 5",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100350",
+    "product_name": "Door Mat Variant 1",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100351",
+    "product_name": "Door Mat Variant 2",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100352",
+    "product_name": "Door Mat Variant 3",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100353",
+    "product_name": "Door Mat Variant 4",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100354",
+    "product_name": "Door Mat Variant 5",
+    "category": "Home"
+  },
+  {
+    "product_id": "PROD100355",
+    "product_name": "Novel Variant 1",
+    "category": "Books"
+  },
+  {
+    "product_id": "PROD100356",
+    "product_name": "Novel Variant 2",
+    "category": "Books"
+  },
+  {
+    "product_id": "PROD100357",
+    "product_name": "Novel Variant 3",
+    "category": "Books"
+  },
+  {
+    "product_id": "PROD100358",
+    "product_name": "Novel Variant 4",
+    "category": "Books"
+  },
+  {
+    "product_id": "PROD100359",
+    "product_name": "Novel Variant 5",
+    "category": "Books"
+  },
+  {
+    "product_id": "PROD100360",
+    "product_name": "Textbook Variant 1",
+    "category": "Books"
+  },
+  {
+    "product_id": "PROD100361",
+    "product_name": "Textbook Variant 2",
+    "category": "Books"
+  },
+  {
+    "product_id": "PROD100362",
+    "product_name": "Textbook Variant 3",
+    "category": "Books"
+  },
+  {
+    "product_id": "PROD100363",
+    "product_name": "Textbook Variant 4",
+    "category": "Books"
+  },
+  {
+    "product_id": "PROD100364",
+    "product_name": "Textbook Variant 5",
+    "category": "Books"
+  },
+  {
+    "product_id": "PROD100365",
+    "product_name": "Biography Variant 1",
+    "category": "Books"
+  },
+  {
+    "product_id": "PROD100366",
+    "product_name": "Biography Variant 2",
+    "category": "Books"
+  },
+  {
+    "product_id": "PROD100367",
+    "product_name": "Biography Variant 3",
+    "category": "Books"
+  },
+  {
+    "product_id": "PROD100368",
+    "product_name": "Biography Variant 4",
+    "category": "Books"
+  },
+  {
+    "product_id": "PROD100369",
+    "product_name": "Biography Variant 5",
+    "category": "Books"
+  },
+  {
+    "product_id": "PROD100370",
+    "product_name": "Comics Variant 1",
+    "category": "Books"
+  },
+  {
+    "product_id": "PROD100371",
+    "product_name": "Comics Variant 2",
+    "category": "Books"
+  },
+  {
+    "product_id": "PROD100372",
+    "product_name": "Comics Variant 3",
+    "category": "Books"
+  },
+  {
+    "product_id": "PROD100373",
+    "product_name": "Comics Variant 4",
+    "category": "Books"
+  },
+  {
+    "product_id": "PROD100374",
+    "product_name": "Comics Variant 5",
+    "category": "Books"
+  },
+  {
+    "product_id": "PROD100375",
+    "product_name": "Magazine Variant 1",
+    "category": "Books"
+  },
+  {
+    "product_id": "PROD100376",
+    "product_name": "Magazine Variant 2",
+    "category": "Books"
+  },
+  {
+    "product_id": "PROD100377",
+    "product_name": "Magazine Variant 3",
+    "category": "Books"
+  },
+  {
+    "product_id": "PROD100378",
+    "product_name": "Magazine Variant 4",
+    "category": "Books"
+  },
+  {
+    "product_id": "PROD100379",
+    "product_name": "Magazine Variant 5",
+    "category": "Books"
+  },
+  {
+    "product_id": "PROD100380",
+    "product_name": "Exam Guide Variant 1",
+    "category": "Books"
+  },
+  {
+    "product_id": "PROD100381",
+    "product_name": "Exam Guide Variant 2",
+    "category": "Books"
+  },
+  {
+    "product_id": "PROD100382",
+    "product_name": "Exam Guide Variant 3",
+    "category": "Books"
+  },
+  {
+    "product_id": "PROD100383",
+    "product_name": "Exam Guide Variant 4",
+    "category": "Books"
+  },
+  {
+    "product_id": "PROD100384",
+    "product_name": "Exam Guide Variant 5",
+    "category": "Books"
+  },
+  {
+    "product_id": "PROD100385",
+    "product_name": "Question Bank Variant 1",
+    "category": "Books"
+  },
+  {
+    "product_id": "PROD100386",
+    "product_name": "Question Bank Variant 2",
+    "category": "Books"
+  },
+  {
+    "product_id": "PROD100387",
+    "product_name": "Question Bank Variant 3",
+    "category": "Books"
+  },
+  {
+    "product_id": "PROD100388",
+    "product_name": "Question Bank Variant 4",
+    "category": "Books"
+  },
+  {
+    "product_id": "PROD100389",
+    "product_name": "Question Bank Variant 5",
+    "category": "Books"
+  },
+  {
+    "product_id": "PROD100390",
+    "product_name": "Notebook Variant 1",
+    "category": "Books"
+  },
+  {
+    "product_id": "PROD100391",
+    "product_name": "Notebook Variant 2",
+    "category": "Books"
+  },
+  {
+    "product_id": "PROD100392",
+    "product_name": "Notebook Variant 3",
+    "category": "Books"
+  },
+  {
+    "product_id": "PROD100393",
+    "product_name": "Notebook Variant 4",
+    "category": "Books"
+  },
+  {
+    "product_id": "PROD100394",
+    "product_name": "Notebook Variant 5",
+    "category": "Books"
+  },
+  {
+    "product_id": "PROD100395",
+    "product_name": "Diary Variant 1",
+    "category": "Books"
+  },
+  {
+    "product_id": "PROD100396",
+    "product_name": "Diary Variant 2",
+    "category": "Books"
+  },
+  {
+    "product_id": "PROD100397",
+    "product_name": "Diary Variant 3",
+    "category": "Books"
+  },
+  {
+    "product_id": "PROD100398",
+    "product_name": "Diary Variant 4",
+    "category": "Books"
+  },
+  {
+    "product_id": "PROD100399",
+    "product_name": "Diary Variant 5",
+    "category": "Books"
+  },
+  {
+    "product_id": "PROD100400",
+    "product_name": "Self Help Book Variant 1",
+    "category": "Books"
+  },
+  {
+    "product_id": "PROD100401",
+    "product_name": "Self Help Book Variant 2",
+    "category": "Books"
+  },
+  {
+    "product_id": "PROD100402",
+    "product_name": "Self Help Book Variant 3",
+    "category": "Books"
+  },
+  {
+    "product_id": "PROD100403",
+    "product_name": "Self Help Book Variant 4",
+    "category": "Books"
+  },
+  {
+    "product_id": "PROD100404",
+    "product_name": "Self Help Book Variant 5",
+    "category": "Books"
+  },
+  {
+    "product_id": "PROD100405",
+    "product_name": "Story Book Variant 1",
+    "category": "Books"
+  },
+  {
+    "product_id": "PROD100406",
+    "product_name": "Story Book Variant 2",
+    "category": "Books"
+  },
+  {
+    "product_id": "PROD100407",
+    "product_name": "Story Book Variant 3",
+    "category": "Books"
+  },
+  {
+    "product_id": "PROD100408",
+    "product_name": "Story Book Variant 4",
+    "category": "Books"
+  },
+  {
+    "product_id": "PROD100409",
+    "product_name": "Story Book Variant 5",
+    "category": "Books"
+  },
+  {
+    "product_id": "PROD100410",
+    "product_name": "Children Book Variant 1",
+    "category": "Books"
+  },
+  {
+    "product_id": "PROD100411",
+    "product_name": "Children Book Variant 2",
+    "category": "Books"
+  },
+  {
+    "product_id": "PROD100412",
+    "product_name": "Children Book Variant 3",
+    "category": "Books"
+  },
+  {
+    "product_id": "PROD100413",
+    "product_name": "Children Book Variant 4",
+    "category": "Books"
+  },
+  {
+    "product_id": "PROD100414",
+    "product_name": "Children Book Variant 5",
+    "category": "Books"
+  },
+  {
+    "product_id": "PROD100415",
+    "product_name": "Engineering Book Variant 1",
+    "category": "Books"
+  },
+  {
+    "product_id": "PROD100416",
+    "product_name": "Engineering Book Variant 2",
+    "category": "Books"
+  },
+  {
+    "product_id": "PROD100417",
+    "product_name": "Engineering Book Variant 3",
+    "category": "Books"
+  },
+  {
+    "product_id": "PROD100418",
+    "product_name": "Engineering Book Variant 4",
+    "category": "Books"
+  },
+  {
+    "product_id": "PROD100419",
+    "product_name": "Engineering Book Variant 5",
+    "category": "Books"
+  },
+  {
+    "product_id": "PROD100420",
+    "product_name": "Medical Book Variant 1",
+    "category": "Books"
+  },
+  {
+    "product_id": "PROD100421",
+    "product_name": "Medical Book Variant 2",
+    "category": "Books"
+  },
+  {
+    "product_id": "PROD100422",
+    "product_name": "Medical Book Variant 3",
+    "category": "Books"
+  },
+  {
+    "product_id": "PROD100423",
+    "product_name": "Medical Book Variant 4",
+    "category": "Books"
+  },
+  {
+    "product_id": "PROD100424",
+    "product_name": "Medical Book Variant 5",
+    "category": "Books"
+  },
+  {
+    "product_id": "PROD100425",
+    "product_name": "Law Book Variant 1",
+    "category": "Books"
+  },
+  {
+    "product_id": "PROD100426",
+    "product_name": "Law Book Variant 2",
+    "category": "Books"
+  },
+  {
+    "product_id": "PROD100427",
+    "product_name": "Law Book Variant 3",
+    "category": "Books"
+  },
+  {
+    "product_id": "PROD100428",
+    "product_name": "Law Book Variant 4",
+    "category": "Books"
+  },
+  {
+    "product_id": "PROD100429",
+    "product_name": "Law Book Variant 5",
+    "category": "Books"
+  },
+  {
+    "product_id": "PROD100430",
+    "product_name": "Maths Book Variant 1",
+    "category": "Books"
+  },
+  {
+    "product_id": "PROD100431",
+    "product_name": "Maths Book Variant 2",
+    "category": "Books"
+  },
+  {
+    "product_id": "PROD100432",
+    "product_name": "Maths Book Variant 3",
+    "category": "Books"
+  },
+  {
+    "product_id": "PROD100433",
+    "product_name": "Maths Book Variant 4",
+    "category": "Books"
+  },
+  {
+    "product_id": "PROD100434",
+    "product_name": "Maths Book Variant 5",
+    "category": "Books"
+  },
+  {
+    "product_id": "PROD100435",
+    "product_name": "Science Book Variant 1",
+    "category": "Books"
+  },
+  {
+    "product_id": "PROD100436",
+    "product_name": "Science Book Variant 2",
+    "category": "Books"
+  },
+  {
+    "product_id": "PROD100437",
+    "product_name": "Science Book Variant 3",
+    "category": "Books"
+  },
+  {
+    "product_id": "PROD100438",
+    "product_name": "Science Book Variant 4",
+    "category": "Books"
+  },
+  {
+    "product_id": "PROD100439",
+    "product_name": "Science Book Variant 5",
+    "category": "Books"
+  },
+  {
+    "product_id": "PROD100440",
+    "product_name": "History Book Variant 1",
+    "category": "Books"
+  },
+  {
+    "product_id": "PROD100441",
+    "product_name": "History Book Variant 2",
+    "category": "Books"
+  },
+  {
+    "product_id": "PROD100442",
+    "product_name": "History Book Variant 3",
+    "category": "Books"
+  },
+  {
+    "product_id": "PROD100443",
+    "product_name": "History Book Variant 4",
+    "category": "Books"
+  },
+  {
+    "product_id": "PROD100444",
+    "product_name": "History Book Variant 5",
+    "category": "Books"
+  },
+  {
+    "product_id": "PROD100445",
+    "product_name": "Face Wash Variant 1",
+    "category": "Beauty"
+  },
+  {
+    "product_id": "PROD100446",
+    "product_name": "Face Wash Variant 2",
+    "category": "Beauty"
+  },
+  {
+    "product_id": "PROD100447",
+    "product_name": "Face Wash Variant 3",
+    "category": "Beauty"
+  },
+  {
+    "product_id": "PROD100448",
+    "product_name": "Face Wash Variant 4",
+    "category": "Beauty"
+  },
+  {
+    "product_id": "PROD100449",
+    "product_name": "Face Wash Variant 5",
+    "category": "Beauty"
+  },
+  {
+    "product_id": "PROD100450",
+    "product_name": "Face Cream Variant 1",
+    "category": "Beauty"
+  },
+  {
+    "product_id": "PROD100451",
+    "product_name": "Face Cream Variant 2",
+    "category": "Beauty"
+  },
+  {
+    "product_id": "PROD100452",
+    "product_name": "Face Cream Variant 3",
+    "category": "Beauty"
+  },
+  {
+    "product_id": "PROD100453",
+    "product_name": "Face Cream Variant 4",
+    "category": "Beauty"
+  },
+  {
+    "product_id": "PROD100454",
+    "product_name": "Face Cream Variant 5",
+    "category": "Beauty"
+  },
+  {
+    "product_id": "PROD100455",
+    "product_name": "Moisturizer Variant 1",
+    "category": "Beauty"
+  },
+  {
+    "product_id": "PROD100456",
+    "product_name": "Moisturizer Variant 2",
+    "category": "Beauty"
+  },
+  {
+    "product_id": "PROD100457",
+    "product_name": "Moisturizer Variant 3",
+    "category": "Beauty"
+  },
+  {
+    "product_id": "PROD100458",
+    "product_name": "Moisturizer Variant 4",
+    "category": "Beauty"
+  },
+  {
+    "product_id": "PROD100459",
+    "product_name": "Moisturizer Variant 5",
+    "category": "Beauty"
+  },
+  {
+    "product_id": "PROD100460",
+    "product_name": "Sunscreen Variant 1",
+    "category": "Beauty"
+  },
+  {
+    "product_id": "PROD100461",
+    "product_name": "Sunscreen Variant 2",
+    "category": "Beauty"
+  },
+  {
+    "product_id": "PROD100462",
+    "product_name": "Sunscreen Variant 3",
+    "category": "Beauty"
+  },
+  {
+    "product_id": "PROD100463",
+    "product_name": "Sunscreen Variant 4",
+    "category": "Beauty"
+  },
+  {
+    "product_id": "PROD100464",
+    "product_name": "Sunscreen Variant 5",
+    "category": "Beauty"
+  },
+  {
+    "product_id": "PROD100465",
+    "product_name": "Serum Variant 1",
+    "category": "Beauty"
+  },
+  {
+    "product_id": "PROD100466",
+    "product_name": "Serum Variant 2",
+    "category": "Beauty"
+  },
+  {
+    "product_id": "PROD100467",
+    "product_name": "Serum Variant 3",
+    "category": "Beauty"
+  },
+  {
+    "product_id": "PROD100468",
+    "product_name": "Serum Variant 4",
+    "category": "Beauty"
+  },
+  {
+    "product_id": "PROD100469",
+    "product_name": "Serum Variant 5",
+    "category": "Beauty"
+  },
+  {
+    "product_id": "PROD100470",
+    "product_name": "Perfume Variant 1",
+    "category": "Beauty"
+  },
+  {
+    "product_id": "PROD100471",
+    "product_name": "Perfume Variant 2",
+    "category": "Beauty"
+  },
+  {
+    "product_id": "PROD100472",
+    "product_name": "Perfume Variant 3",
+    "category": "Beauty"
+  },
+  {
+    "product_id": "PROD100473",
+    "product_name": "Perfume Variant 4",
+    "category": "Beauty"
+  },
+  {
+    "product_id": "PROD100474",
+    "product_name": "Perfume Variant 5",
+    "category": "Beauty"
+  },
+  {
+    "product_id": "PROD100475",
+    "product_name": "Deodorant Variant 1",
+    "category": "Beauty"
+  },
+  {
+    "product_id": "PROD100476",
+    "product_name": "Deodorant Variant 2",
+    "category": "Beauty"
+  },
+  {
+    "product_id": "PROD100477",
+    "product_name": "Deodorant Variant 3",
+    "category": "Beauty"
+  },
+  {
+    "product_id": "PROD100478",
+    "product_name": "Deodorant Variant 4",
+    "category": "Beauty"
+  },
+  {
+    "product_id": "PROD100479",
+    "product_name": "Deodorant Variant 5",
+    "category": "Beauty"
+  },
+  {
+    "product_id": "PROD100480",
+    "product_name": "Lipstick Variant 1",
+    "category": "Beauty"
+  },
+  {
+    "product_id": "PROD100481",
+    "product_name": "Lipstick Variant 2",
+    "category": "Beauty"
+  },
+  {
+    "product_id": "PROD100482",
+    "product_name": "Lipstick Variant 3",
+    "category": "Beauty"
+  },
+  {
+    "product_id": "PROD100483",
+    "product_name": "Lipstick Variant 4",
+    "category": "Beauty"
+  },
+  {
+    "product_id": "PROD100484",
+    "product_name": "Lipstick Variant 5",
+    "category": "Beauty"
+  },
+  {
+    "product_id": "PROD100485",
+    "product_name": "Foundation Variant 1",
+    "category": "Beauty"
+  },
+  {
+    "product_id": "PROD100486",
+    "product_name": "Foundation Variant 2",
+    "category": "Beauty"
+  },
+  {
+    "product_id": "PROD100487",
+    "product_name": "Foundation Variant 3",
+    "category": "Beauty"
+  },
+  {
+    "product_id": "PROD100488",
+    "product_name": "Foundation Variant 4",
+    "category": "Beauty"
+  },
+  {
+    "product_id": "PROD100489",
+    "product_name": "Foundation Variant 5",
+    "category": "Beauty"
+  },
+  {
+    "product_id": "PROD100490",
+    "product_name": "Compact Powder Variant 1",
+    "category": "Beauty"
+  },
+  {
+    "product_id": "PROD100491",
+    "product_name": "Compact Powder Variant 2",
+    "category": "Beauty"
+  },
+  {
+    "product_id": "PROD100492",
+    "product_name": "Compact Powder Variant 3",
+    "category": "Beauty"
+  },
+  {
+    "product_id": "PROD100493",
+    "product_name": "Compact Powder Variant 4",
+    "category": "Beauty"
+  },
+  {
+    "product_id": "PROD100494",
+    "product_name": "Compact Powder Variant 5",
+    "category": "Beauty"
+  },
+  {
+    "product_id": "PROD100495",
+    "product_name": "Hair Oil Variant 1",
+    "category": "Beauty"
+  },
+  {
+    "product_id": "PROD100496",
+    "product_name": "Hair Oil Variant 2",
+    "category": "Beauty"
+  },
+  {
+    "product_id": "PROD100497",
+    "product_name": "Hair Oil Variant 3",
+    "category": "Beauty"
+  },
+  {
+    "product_id": "PROD100498",
+    "product_name": "Hair Oil Variant 4",
+    "category": "Beauty"
+  },
+  {
+    "product_id": "PROD100499",
+    "product_name": "Hair Oil Variant 5",
+    "category": "Beauty"
+  },
+  {
+    "product_id": "PROD100500",
+    "product_name": "Shampoo Variant 1",
+    "category": "Beauty"
+  },
+  {
+    "product_id": "PROD100501",
+    "product_name": "Shampoo Variant 2",
+    "category": "Beauty"
+  },
+  {
+    "product_id": "PROD100502",
+    "product_name": "Shampoo Variant 3",
+    "category": "Beauty"
+  },
+  {
+    "product_id": "PROD100503",
+    "product_name": "Shampoo Variant 4",
+    "category": "Beauty"
+  },
+  {
+    "product_id": "PROD100504",
+    "product_name": "Shampoo Variant 5",
+    "category": "Beauty"
+  },
+  {
+    "product_id": "PROD100505",
+    "product_name": "Conditioner Variant 1",
+    "category": "Beauty"
+  },
+  {
+    "product_id": "PROD100506",
+    "product_name": "Conditioner Variant 2",
+    "category": "Beauty"
+  },
+  {
+    "product_id": "PROD100507",
+    "product_name": "Conditioner Variant 3",
+    "category": "Beauty"
+  },
+  {
+    "product_id": "PROD100508",
+    "product_name": "Conditioner Variant 4",
+    "category": "Beauty"
+  },
+  {
+    "product_id": "PROD100509",
+    "product_name": "Conditioner Variant 5",
+    "category": "Beauty"
+  },
+  {
+    "product_id": "PROD100510",
+    "product_name": "Hair Mask Variant 1",
+    "category": "Beauty"
+  },
+  {
+    "product_id": "PROD100511",
+    "product_name": "Hair Mask Variant 2",
+    "category": "Beauty"
+  },
+  {
+    "product_id": "PROD100512",
+    "product_name": "Hair Mask Variant 3",
+    "category": "Beauty"
+  },
+  {
+    "product_id": "PROD100513",
+    "product_name": "Hair Mask Variant 4",
+    "category": "Beauty"
+  },
+  {
+    "product_id": "PROD100514",
+    "product_name": "Hair Mask Variant 5",
+    "category": "Beauty"
+  },
+  {
+    "product_id": "PROD100515",
+    "product_name": "Beard Oil Variant 1",
+    "category": "Beauty"
+  },
+  {
+    "product_id": "PROD100516",
+    "product_name": "Beard Oil Variant 2",
+    "category": "Beauty"
+  },
+  {
+    "product_id": "PROD100517",
+    "product_name": "Beard Oil Variant 3",
+    "category": "Beauty"
+  },
+  {
+    "product_id": "PROD100518",
+    "product_name": "Beard Oil Variant 4",
+    "category": "Beauty"
+  },
+  {
+    "product_id": "PROD100519",
+    "product_name": "Beard Oil Variant 5",
+    "category": "Beauty"
+  },
+  {
+    "product_id": "PROD100520",
+    "product_name": "Trimmer Variant 1",
+    "category": "Beauty"
+  },
+  {
+    "product_id": "PROD100521",
+    "product_name": "Trimmer Variant 2",
+    "category": "Beauty"
+  },
+  {
+    "product_id": "PROD100522",
+    "product_name": "Trimmer Variant 3",
+    "category": "Beauty"
+  },
+  {
+    "product_id": "PROD100523",
+    "product_name": "Trimmer Variant 4",
+    "category": "Beauty"
+  },
+  {
+    "product_id": "PROD100524",
+    "product_name": "Trimmer Variant 5",
+    "category": "Beauty"
+  },
+  {
+    "product_id": "PROD100525",
+    "product_name": "Face Razor Variant 1",
+    "category": "Beauty"
+  },
+  {
+    "product_id": "PROD100526",
+    "product_name": "Face Razor Variant 2",
+    "category": "Beauty"
+  },
+  {
+    "product_id": "PROD100527",
+    "product_name": "Face Razor Variant 3",
+    "category": "Beauty"
+  },
+  {
+    "product_id": "PROD100528",
+    "product_name": "Face Razor Variant 4",
+    "category": "Beauty"
+  },
+  {
+    "product_id": "PROD100529",
+    "product_name": "Face Razor Variant 5",
+    "category": "Beauty"
+  },
+  {
+    "product_id": "PROD100530",
+    "product_name": "Hair Dryer Variant 1",
+    "category": "Beauty"
+  },
+  {
+    "product_id": "PROD100531",
+    "product_name": "Hair Dryer Variant 2",
+    "category": "Beauty"
+  },
+  {
+    "product_id": "PROD100532",
+    "product_name": "Hair Dryer Variant 3",
+    "category": "Beauty"
+  },
+  {
+    "product_id": "PROD100533",
+    "product_name": "Hair Dryer Variant 4",
+    "category": "Beauty"
+  },
+  {
+    "product_id": "PROD100534",
+    "product_name": "Hair Dryer Variant 5",
+    "category": "Beauty"
+  },
+  {
+    "product_id": "PROD100535",
+    "product_name": "Straightener Variant 1",
+    "category": "Beauty"
+  },
+  {
+    "product_id": "PROD100536",
+    "product_name": "Straightener Variant 2",
+    "category": "Beauty"
+  },
+  {
+    "product_id": "PROD100537",
+    "product_name": "Straightener Variant 3",
+    "category": "Beauty"
+  },
+  {
+    "product_id": "PROD100538",
+    "product_name": "Straightener Variant 4",
+    "category": "Beauty"
+  },
+  {
+    "product_id": "PROD100539",
+    "product_name": "Straightener Variant 5",
+    "category": "Beauty"
+  },
+  {
+    "product_id": "PROD100540",
+    "product_name": "Body Lotion Variant 1",
+    "category": "Beauty"
+  },
+  {
+    "product_id": "PROD100541",
+    "product_name": "Body Lotion Variant 2",
+    "category": "Beauty"
+  },
+  {
+    "product_id": "PROD100542",
+    "product_name": "Body Lotion Variant 3",
+    "category": "Beauty"
+  },
+  {
+    "product_id": "PROD100543",
+    "product_name": "Body Lotion Variant 4",
+    "category": "Beauty"
+  },
+  {
+    "product_id": "PROD100544",
+    "product_name": "Body Lotion Variant 5",
+    "category": "Beauty"
+  },
+  {
+    "product_id": "PROD100545",
+    "product_name": "Cricket Bat Variant 1",
+    "category": "Sports"
+  },
+  {
+    "product_id": "PROD100546",
+    "product_name": "Cricket Bat Variant 2",
+    "category": "Sports"
+  },
+  {
+    "product_id": "PROD100547",
+    "product_name": "Cricket Bat Variant 3",
+    "category": "Sports"
+  },
+  {
+    "product_id": "PROD100548",
+    "product_name": "Cricket Bat Variant 4",
+    "category": "Sports"
+  },
+  {
+    "product_id": "PROD100549",
+    "product_name": "Cricket Bat Variant 5",
+    "category": "Sports"
+  },
+  {
+    "product_id": "PROD100550",
+    "product_name": "Cricket Ball Variant 1",
+    "category": "Sports"
+  },
+  {
+    "product_id": "PROD100551",
+    "product_name": "Cricket Ball Variant 2",
+    "category": "Sports"
+  },
+  {
+    "product_id": "PROD100552",
+    "product_name": "Cricket Ball Variant 3",
+    "category": "Sports"
+  },
+  {
+    "product_id": "PROD100553",
+    "product_name": "Cricket Ball Variant 4",
+    "category": "Sports"
+  },
+  {
+    "product_id": "PROD100554",
+    "product_name": "Cricket Ball Variant 5",
+    "category": "Sports"
+  },
+  {
+    "product_id": "PROD100555",
+    "product_name": "Football Variant 1",
+    "category": "Sports"
+  },
+  {
+    "product_id": "PROD100556",
+    "product_name": "Football Variant 2",
+    "category": "Sports"
+  },
+  {
+    "product_id": "PROD100557",
+    "product_name": "Football Variant 3",
+    "category": "Sports"
+  },
+  {
+    "product_id": "PROD100558",
+    "product_name": "Football Variant 4",
+    "category": "Sports"
+  },
+  {
+    "product_id": "PROD100559",
+    "product_name": "Football Variant 5",
+    "category": "Sports"
+  },
+  {
+    "product_id": "PROD100560",
+    "product_name": "Volleyball Variant 1",
+    "category": "Sports"
+  },
+  {
+    "product_id": "PROD100561",
+    "product_name": "Volleyball Variant 2",
+    "category": "Sports"
+  },
+  {
+    "product_id": "PROD100562",
+    "product_name": "Volleyball Variant 3",
+    "category": "Sports"
+  },
+  {
+    "product_id": "PROD100563",
+    "product_name": "Volleyball Variant 4",
+    "category": "Sports"
+  },
+  {
+    "product_id": "PROD100564",
+    "product_name": "Volleyball Variant 5",
+    "category": "Sports"
+  },
+  {
+    "product_id": "PROD100565",
+    "product_name": "Badminton Racket Variant 1",
+    "category": "Sports"
+  },
+  {
+    "product_id": "PROD100566",
+    "product_name": "Badminton Racket Variant 2",
+    "category": "Sports"
+  },
+  {
+    "product_id": "PROD100567",
+    "product_name": "Badminton Racket Variant 3",
+    "category": "Sports"
+  },
+  {
+    "product_id": "PROD100568",
+    "product_name": "Badminton Racket Variant 4",
+    "category": "Sports"
+  },
+  {
+    "product_id": "PROD100569",
+    "product_name": "Badminton Racket Variant 5",
+    "category": "Sports"
+  },
+  {
+    "product_id": "PROD100570",
+    "product_name": "Shuttlecock Variant 1",
+    "category": "Sports"
+  },
+  {
+    "product_id": "PROD100571",
+    "product_name": "Shuttlecock Variant 2",
+    "category": "Sports"
+  },
+  {
+    "product_id": "PROD100572",
+    "product_name": "Shuttlecock Variant 3",
+    "category": "Sports"
+  },
+  {
+    "product_id": "PROD100573",
+    "product_name": "Shuttlecock Variant 4",
+    "category": "Sports"
+  },
+  {
+    "product_id": "PROD100574",
+    "product_name": "Shuttlecock Variant 5",
+    "category": "Sports"
+  },
+  {
+    "product_id": "PROD100575",
+    "product_name": "Tennis Racket Variant 1",
+    "category": "Sports"
+  },
+  {
+    "product_id": "PROD100576",
+    "product_name": "Tennis Racket Variant 2",
+    "category": "Sports"
+  },
+  {
+    "product_id": "PROD100577",
+    "product_name": "Tennis Racket Variant 3",
+    "category": "Sports"
+  },
+  {
+    "product_id": "PROD100578",
+    "product_name": "Tennis Racket Variant 4",
+    "category": "Sports"
+  },
+  {
+    "product_id": "PROD100579",
+    "product_name": "Tennis Racket Variant 5",
+    "category": "Sports"
+  },
+  {
+    "product_id": "PROD100580",
+    "product_name": "Basketball Variant 1",
+    "category": "Sports"
+  },
+  {
+    "product_id": "PROD100581",
+    "product_name": "Basketball Variant 2",
+    "category": "Sports"
+  },
+  {
+    "product_id": "PROD100582",
+    "product_name": "Basketball Variant 3",
+    "category": "Sports"
+  },
+  {
+    "product_id": "PROD100583",
+    "product_name": "Basketball Variant 4",
+    "category": "Sports"
+  },
+  {
+    "product_id": "PROD100584",
+    "product_name": "Basketball Variant 5",
+    "category": "Sports"
+  },
+  {
+    "product_id": "PROD100585",
+    "product_name": "Yoga Mat Variant 1",
+    "category": "Sports"
+  },
+  {
+    "product_id": "PROD100586",
+    "product_name": "Yoga Mat Variant 2",
+    "category": "Sports"
+  },
+  {
+    "product_id": "PROD100587",
+    "product_name": "Yoga Mat Variant 3",
+    "category": "Sports"
+  },
+  {
+    "product_id": "PROD100588",
+    "product_name": "Yoga Mat Variant 4",
+    "category": "Sports"
+  },
+  {
+    "product_id": "PROD100589",
+    "product_name": "Yoga Mat Variant 5",
+    "category": "Sports"
+  },
+  {
+    "product_id": "PROD100590",
+    "product_name": "Skipping Rope Variant 1",
+    "category": "Sports"
+  },
+  {
+    "product_id": "PROD100591",
+    "product_name": "Skipping Rope Variant 2",
+    "category": "Sports"
+  },
+  {
+    "product_id": "PROD100592",
+    "product_name": "Skipping Rope Variant 3",
+    "category": "Sports"
+  },
+  {
+    "product_id": "PROD100593",
+    "product_name": "Skipping Rope Variant 4",
+    "category": "Sports"
+  },
+  {
+    "product_id": "PROD100594",
+    "product_name": "Skipping Rope Variant 5",
+    "category": "Sports"
+  },
+  {
+    "product_id": "PROD100595",
+    "product_name": "Dumbbells Variant 1",
+    "category": "Sports"
+  },
+  {
+    "product_id": "PROD100596",
+    "product_name": "Dumbbells Variant 2",
+    "category": "Sports"
+  },
+  {
+    "product_id": "PROD100597",
+    "product_name": "Dumbbells Variant 3",
+    "category": "Sports"
+  },
+  {
+    "product_id": "PROD100598",
+    "product_name": "Dumbbells Variant 4",
+    "category": "Sports"
+  },
+  {
+    "product_id": "PROD100599",
+    "product_name": "Dumbbells Variant 5",
+    "category": "Sports"
+  },
+  {
+    "product_id": "PROD100600",
+    "product_name": "Resistance Band Variant 1",
+    "category": "Sports"
+  },
+  {
+    "product_id": "PROD100601",
+    "product_name": "Resistance Band Variant 2",
+    "category": "Sports"
+  },
+  {
+    "product_id": "PROD100602",
+    "product_name": "Resistance Band Variant 3",
+    "category": "Sports"
+  },
+  {
+    "product_id": "PROD100603",
+    "product_name": "Resistance Band Variant 4",
+    "category": "Sports"
+  },
+  {
+    "product_id": "PROD100604",
+    "product_name": "Resistance Band Variant 5",
+    "category": "Sports"
+  },
+  {
+    "product_id": "PROD100605",
+    "product_name": "Treadmill Variant 1",
+    "category": "Sports"
+  },
+  {
+    "product_id": "PROD100606",
+    "product_name": "Treadmill Variant 2",
+    "category": "Sports"
+  },
+  {
+    "product_id": "PROD100607",
+    "product_name": "Treadmill Variant 3",
+    "category": "Sports"
+  },
+  {
+    "product_id": "PROD100608",
+    "product_name": "Treadmill Variant 4",
+    "category": "Sports"
+  },
+  {
+    "product_id": "PROD100609",
+    "product_name": "Treadmill Variant 5",
+    "category": "Sports"
+  },
+  {
+    "product_id": "PROD100610",
+    "product_name": "Gym Gloves Variant 1",
+    "category": "Sports"
+  },
+  {
+    "product_id": "PROD100611",
+    "product_name": "Gym Gloves Variant 2",
+    "category": "Sports"
+  },
+  {
+    "product_id": "PROD100612",
+    "product_name": "Gym Gloves Variant 3",
+    "category": "Sports"
+  },
+  {
+    "product_id": "PROD100613",
+    "product_name": "Gym Gloves Variant 4",
+    "category": "Sports"
+  },
+  {
+    "product_id": "PROD100614",
+    "product_name": "Gym Gloves Variant 5",
+    "category": "Sports"
+  },
+  {
+    "product_id": "PROD100615",
+    "product_name": "Sports Shoes Variant 1",
+    "category": "Sports"
+  },
+  {
+    "product_id": "PROD100616",
+    "product_name": "Sports Shoes Variant 2",
+    "category": "Sports"
+  },
+  {
+    "product_id": "PROD100617",
+    "product_name": "Sports Shoes Variant 3",
+    "category": "Sports"
+  },
+  {
+    "product_id": "PROD100618",
+    "product_name": "Sports Shoes Variant 4",
+    "category": "Sports"
+  },
+  {
+    "product_id": "PROD100619",
+    "product_name": "Sports Shoes Variant 5",
+    "category": "Sports"
+  },
+  {
+    "product_id": "PROD100620",
+    "product_name": "Helmet Variant 1",
+    "category": "Sports"
+  },
+  {
+    "product_id": "PROD100621",
+    "product_name": "Helmet Variant 2",
+    "category": "Sports"
+  },
+  {
+    "product_id": "PROD100622",
+    "product_name": "Helmet Variant 3",
+    "category": "Sports"
+  },
+  {
+    "product_id": "PROD100623",
+    "product_name": "Helmet Variant 4",
+    "category": "Sports"
+  },
+  {
+    "product_id": "PROD100624",
+    "product_name": "Helmet Variant 5",
+    "category": "Sports"
+  },
+  {
+    "product_id": "PROD100625",
+    "product_name": "Knee Guard Variant 1",
+    "category": "Sports"
+  },
+  {
+    "product_id": "PROD100626",
+    "product_name": "Knee Guard Variant 2",
+    "category": "Sports"
+  },
+  {
+    "product_id": "PROD100627",
+    "product_name": "Knee Guard Variant 3",
+    "category": "Sports"
+  },
+  {
+    "product_id": "PROD100628",
+    "product_name": "Knee Guard Variant 4",
+    "category": "Sports"
+  },
+  {
+    "product_id": "PROD100629",
+    "product_name": "Knee Guard Variant 5",
+    "category": "Sports"
+  },
+  {
+    "product_id": "PROD100630",
+    "product_name": "Cycling Gloves Variant 1",
+    "category": "Sports"
+  },
+  {
+    "product_id": "PROD100631",
+    "product_name": "Cycling Gloves Variant 2",
+    "category": "Sports"
+  },
+  {
+    "product_id": "PROD100632",
+    "product_name": "Cycling Gloves Variant 3",
+    "category": "Sports"
+  },
+  {
+    "product_id": "PROD100633",
+    "product_name": "Cycling Gloves Variant 4",
+    "category": "Sports"
+  },
+  {
+    "product_id": "PROD100634",
+    "product_name": "Cycling Gloves Variant 5",
+    "category": "Sports"
+  }
+]

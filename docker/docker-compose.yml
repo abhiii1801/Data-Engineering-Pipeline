@@ -1,0 +1,101 @@
+version: '3.8'
+
+services:
+  # --- Spark Container ---
+  spark:
+    build:
+      context: .
+      dockerfile: spark/Dockerfile
+    image: docker-spark
+    container_name: spark-etl
+    command: tail -f /dev/null
+    env_file:
+      - ../.env
+    volumes:
+      - ..:/opt/project
+    networks:
+      - data-pipeline-net
+
+  # --- Airflow Initialization (Runs once then exits) ---
+  airflow-init:
+    build:
+      context: .
+      dockerfile: airflow/Dockerfile
+    container_name: airflow-init
+    entrypoint: /bin/bash
+    # This command initializes the DB and creates the user automatically
+    command: >
+      -c "airflow db migrate && 
+      airflow users create --username admin --password admin --firstname Admin --lastname User --role Admin --email admin@example.com"
+    environment:
+      - AIRFLOW__CORE__EXECUTOR=LocalExecutor
+      - AIRFLOW__CORE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres/airflow
+      - AIRFLOW__CORE__LOAD_EXAMPLES=false
+    depends_on:
+      - postgres
+    networks:
+      - data-pipeline-net
+
+  # --- Airflow Webserver ---
+  airflow-webserver:
+    user: root
+    build:
+      context: .
+      dockerfile: airflow/Dockerfile
+    container_name: airflow-webserver
+    restart: always
+    environment:
+      - AIRFLOW__CORE__EXECUTOR=LocalExecutor
+      - AIRFLOW__CORE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres/airflow
+      - AIRFLOW__CORE__LOAD_EXAMPLES=false
+    ports:
+      - "8080:8080"
+    volumes:
+      - ../dags:/opt/airflow/dags
+      - ..:/opt/project
+      # Socket mount for Docker-in-Docker
+      - //var/run/docker.sock:/var/run/docker.sock
+    networks:
+      - data-pipeline-net
+    command: webserver
+    depends_on:
+      airflow-init:
+        condition: service_completed_successfully
+
+  # --- Airflow Scheduler ---
+  airflow-scheduler:
+    user: root
+    build:
+      context: .
+      dockerfile: airflow/Dockerfile
+    container_name: airflow-scheduler
+    restart: always
+    environment:
+      - AIRFLOW__CORE__EXECUTOR=LocalExecutor
+      - AIRFLOW__CORE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres/airflow
+      - AIRFLOW__CORE__LOAD_EXAMPLES=false
+    volumes:
+      - ../dags:/opt/airflow/dags
+      - ..:/opt/project
+      # Socket mount for Docker-in-Docker
+      - //var/run/docker.sock:/var/run/docker.sock
+    networks:
+      - data-pipeline-net
+    command: scheduler
+    depends_on:
+      airflow-init:
+        condition: service_completed_successfully
+
+  # --- Database ---
+  postgres:
+    image: postgres:13
+    container_name: airflow-postgres
+    environment:
+      - POSTGRES_USER=airflow
+      - POSTGRES_PASSWORD=airflow
+      - POSTGRES_DB=airflow
+    networks:
+      - data-pipeline-net
+
+networks:
+  data-pipeline-net:

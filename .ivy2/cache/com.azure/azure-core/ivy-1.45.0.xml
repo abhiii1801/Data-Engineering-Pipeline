@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0" xmlns:m="http://ant.apache.org/ivy/maven">
+	<info organisation="com.azure"
+		module="azure-core"
+		revision="1.45.0"
+		status="release"
+		publication="20231103193436"
+	>
+		<license name="The MIT License (MIT)" url="http://opensource.org/licenses/MIT" />
+		<description homepage="https://github.com/Azure/azure-sdk-for-java">
+		This package contains core types for Azure Java clients.
+		</description>
+		<m:properties__checkstyle.excludes>**/generated/**/*.java</m:properties__checkstyle.excludes>
+		<m:properties__jacoco.min.branchcoverage>0.60</m:properties__jacoco.min.branchcoverage>
+		<m:properties__project.build.sourceEncoding>UTF-8</m:properties__project.build.sourceEncoding>
+		<m:properties__legal>[INFO] Any downloads listed may be third party software.  Microsoft grants you no rights for third party software.</m:properties__legal>
+		<m:properties__javaModulesSurefireArgLine>
+      --add-exports com.azure.core/com.azure.core.implementation.http=ALL-UNNAMED
+      --add-exports com.azure.core/com.azure.core.implementation.http.rest=ALL-UNNAMED
+      --add-exports com.azure.core/com.azure.core.implementation.serializer=ALL-UNNAMED
+      --add-exports com.azure.core/com.azure.core.implementation.jackson=ALL-UNNAMED
+
+      --add-opens com.azure.core/com.azure.core=ALL-UNNAMED
+      --add-opens com.azure.core/com.azure.core.credential=ALL-UNNAMED
+      --add-opens com.azure.core/com.azure.core.http=ALL-UNNAMED
+      --add-opens com.azure.core/com.azure.core.http.policy=ALL-UNNAMED
+      --add-opens com.azure.core/com.azure.core.http.rest=ALL-UNNAMED
+      --add-opens com.azure.core/com.azure.core.implementation=ALL-UNNAMED
+      --add-opens com.azure.core/com.azure.core.implementation.http=ALL-UNNAMED
+      --add-opens com.azure.core/com.azure.core.implementation.http.rest=ALL-UNNAMED
+      --add-opens com.azure.core/com.azure.core.implementation.models.jsonflatten=com.fasterxml.jackson.databind
+      --add-opens com.azure.core/com.azure.core.implementation.models.jsonflatten=ALL-UNNAMED
+      --add-opens com.azure.core/com.azure.core.implementation.serializer=ALL-UNNAMED
+      --add-opens com.azure.core/com.azure.core.implementation.jackson=ALL-UNNAMED
+      --add-opens com.azure.core/com.azure.core.implementation.logging=ALL-UNNAMED
+      --add-opens com.azure.core/com.azure.core.models=ALL-UNNAMED
+      --add-opens com.azure.core/com.azure.core.util=ALL-UNNAMED
+      --add-opens com.azure.core/com.azure.core.util.tracing=ALL-UNNAMED
+      --add-opens com.azure.core/com.azure.core.util.logging=ALL-UNNAMED
+      --add-opens com.azure.core/com.azure.core.util.polling=ALL-UNNAMED
+      --add-opens com.azure.core/com.azure.core.util.serializer=ALL-UNNAMED
+
+      --add-reads com.azure.core=ALL-UNNAMED
+    </m:properties__javaModulesSurefireArgLine>
+		<m:properties__javadoc.excludePackageNames>com.azure.json</m:properties__javadoc.excludePackageNames>
+		<m:properties__jacoco.min.linecoverage>0.60</m:properties__jacoco.min.linecoverage>
+		<m:properties__compiler.failondeprecatedstatus/>
+		<m:properties__alternativePlaybackServerPort>11081</m:properties__alternativePlaybackServerPort>
+		<m:properties__site.url>https://azuresdkartifacts.blob.core.windows.net/azure-sdk-for-java</m:properties__site.url>
+		<m:properties__build.context>azure-client-sdk-parent</m:properties__build.context>
+		<m:properties__testMode>playback</m:properties__testMode>
+		<m:properties__playbackServerPort>11080</m:properties__playbackServerPort>
+		<m:properties__issues.url>https://github.com/Azure/azure-sdk-for-java/issues</m:properties__issues.url>
+		<m:properties__packageOutputDirectory>${project.build.directory}</m:properties__packageOutputDirectory>
+		<m:maven.plugins>org.apache.maven.plugins__maven-compiler-plugin__3.8.1|org.apache.maven.plugins__maven-checkstyle-plugin__3.1.0|com.github.spotbugs__spotbugs-maven-plugin__3.1.12.2|org.codehaus.mojo__xml-maven-plugin__1.0|org.apache.maven.plugins__maven-jar-plugin__3.1.2|org.apache.maven.plugins__maven-javadoc-plugin__3.1.1|org.apache.maven.plugins__maven-source-plugin__3.0.1|org.apache.maven.plugins__maven-antrun-plugin__1.8|org.jacoco__jacoco-maven-plugin__0.8.4|org.codehaus.mojo__build-helper-maven-plugin__3.0.0|org.apache.maven.plugins__maven-compiler-plugin__3.8.1|org.apache.maven.plugins__maven-surefire-plugin__3.0.0-M3|org.apache.maven.plugins__maven-javadoc-plugin__3.1.1|org.apache.maven.plugins__maven-compiler-plugin__3.8.1|org.apache.maven.plugins__maven-checkstyle-plugin__3.1.0|com.github.spotbugs__spotbugs-maven-plugin__3.1.12.2|org.codehaus.mojo__xml-maven-plugin__1.0|org.apache.maven.plugins__maven-jar-plugin__3.1.2|org.apache.maven.plugins__maven-javadoc-plugin__3.1.1|org.apache.maven.plugins__maven-source-plugin__3.0.1|org.apache.maven.plugins__maven-antrun-plugin__1.8|org.jacoco__jacoco-maven-plugin__0.8.4|org.codehaus.mojo__build-helper-maven-plugin__3.0.0|org.apache.maven.plugins__maven-compiler-plugin__3.8.1|org.apache.maven.plugins__maven-surefire-plugin__3.0.0-M3|org.apache.maven.plugins__maven-javadoc-plugin__3.1.1|org.apache.maven.plugins__maven-jar-plugin__3.2.2|org.apache.maven.plugins__maven-enforcer-plugin__3.0.0-M3|com.github.spotbugs__spotbugs-maven-plugin__4.7.3.6</m:maven.plugins>
+	</info>
+	<configurations>
+		<conf name="default" visibility="public" description="runtime dependencies and master artifact can be used with this conf" extends="runtime,master"/>
+		<conf name="master" visibility="public" description="contains only the artifact published by this module itself, with no transitive dependencies"/>
+		<conf name="compile" visibility="public" description="this is the default scope, used if none is specified. Compile dependencies are available in all classpaths."/>
+		<conf name="provided" visibility="public" description="this is much like compile, but indicates you expect the JDK or a container to provide it. It is only available on the compilation classpath, and is not transitive."/>
+		<conf name="runtime" visibility="public" description="this scope indicates that the dependency is not required for compilation, but is for execution. It is in the runtime and test classpaths, but not the compile classpath." extends="compile"/>
+		<conf name="test" visibility="public" description="this scope indicates that the dependency is not required for normal use of the application, and is only available for the test compilation and execution phases." extends="runtime"/>
+		<conf name="system" visibility="public" description="this scope is similar to provided except that you have to provide the JAR which contains it explicitly. The artifact is always available and is not looked up in a repository."/>
+		<conf name="sources" visibility="public" description="this configuration contains the source artifact of this module, if any."/>
+		<conf name="javadoc" visibility="public" description="this configuration contains the javadoc artifact of this module, if any."/>
+		<conf name="optional" visibility="public" description="contains all optional dependencies"/>
+	</configurations>
+	<publications>
+		<artifact name="azure-core" type="jar" ext="jar" conf="master"/>
+	</publications>
+	<dependencies>
+		<dependency org="com.azure" name="azure-json" rev="1.1.0" force="true" conf="compile->compile(*),master(*);runtime->runtime(*);test->runtime(*),master(*)">
+			<artifact name="azure-json" type="test-jar" ext="jar" conf="test" m:classifier="tests"/>
+		</dependency>
+		<dependency org="com.fasterxml.jackson.core" name="jackson-annotations" rev="2.13.5" force="true" conf="compile->compile(*),master(*);runtime->runtime(*)"/>
+		<dependency org="com.fasterxml.jackson.core" name="jackson-core" rev="2.13.5" force="true" conf="compile->compile(*),master(*);runtime->runtime(*)"/>
+		<dependency org="com.fasterxml.jackson.core" name="jackson-databind" rev="2.13.5" force="true" conf="compile->compile(*),master(*);runtime->runtime(*)"/>
+		<dependency org="com.fasterxml.jackson.datatype" name="jackson-datatype-jsr310" rev="2.13.5" force="true" conf="compile->compile(*),master(*);runtime->runtime(*)"/>
+		<dependency org="org.slf4j" name="slf4j-api" rev="1.7.36" force="true" conf="compile->compile(*),master(*);runtime->runtime(*)"/>
+		<dependency org="com.google.code.findbugs" name="jsr305" rev="3.0.2" force="true" conf="provided->compile(*),provided(*),runtime(*),master(*)"/>
+		<dependency org="io.projectreactor" name="reactor-core" rev="3.4.33" force="true" conf="compile->compile(*),master(*);runtime->runtime(*)"/>
+		<dependency org="com.fasterxml.jackson.dataformat" name="jackson-dataformat-xml" rev="2.13.5" force="true" conf="test->runtime(*),master(*)"/>
+		<dependency org="io.projectreactor" name="reactor-test" rev="3.4.33" force="true" conf="test->runtime(*),master(*)"/>
+		<dependency org="org.junit.jupiter" name="junit-jupiter-api" rev="5.9.3" force="true" conf="test->runtime(*),master(*)"/>
+		<dependency org="org.junit.jupiter" name="junit-jupiter-engine" rev="5.9.3" force="true" conf="test->runtime(*),master(*)"/>
+		<dependency org="org.junit.jupiter" name="junit-jupiter-params" rev="5.9.3" force="true" conf="test->runtime(*),master(*)"/>
+		<dependency org="org.hamcrest" name="hamcrest-library" rev="2.2" force="true" conf="test->runtime(*),master(*)"/>
+		<dependency org="org.openjdk.jmh" name="jmh-core" rev="1.36" force="true" conf="test->runtime(*),master(*)"/>
+		<dependency org="org.openjdk.jmh" name="jmh-generator-annprocess" rev="1.36" force="true" conf="test->runtime(*),master(*)"/>
+		<dependency org="javax.json" name="javax.json-api" rev="1.1.4" force="true" conf="test->runtime(*),master(*)"/>
+		<dependency org="org.jacoco" name="org.jacoco.agent" rev="0.8.4" force="true" conf="test->runtime(*),master(*)">
+			<artifact name="org.jacoco.agent" type="jar" ext="jar" conf="test" m:classifier="runtime"/>
+		</dependency>
+	</dependencies>
+</ivy-module>
