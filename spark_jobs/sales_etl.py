@@ -35,6 +35,14 @@ spark = (
     .appName("Sales_ETL")
     .config("spark.sql.extensions", "io.delta.sql.DeltaSparkSessionExtension")
     .config("spark.sql.catalog.spark_catalog", "org.apache.spark.sql.delta.catalog.DeltaCatalog")
+    # --- CONCURRENCY FIXES ---
+    .config("spark.databricks.delta.optimizeWrite.enabled", "true")
+    .config("spark.databricks.delta.autoCompact.enabled", "true")
+    # Hardcode the protocol so concurrent writers don't fight over initialization
+    .config("spark.databricks.delta.minReaderVersion", "1")
+    .config("spark.databricks.delta.minWriterVersion", "2")
+    # Allow multiple writers to commit to the log simultaneously
+    .config("spark.databricks.delta.snapshotIsolation.enabled", "true")
     .getOrCreate()
 )
 

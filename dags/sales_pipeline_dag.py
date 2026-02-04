@@ -9,7 +9,7 @@ default_args = {
     'email_on_failure': False,
     'email_on_retry': False,
     'retries': 1,
-    'retry_delay': timedelta(minutes=5),
+    'retry_delay': timedelta(minutes=3),
 }
 
 # -----------------------------------------------------------------------
@@ -25,9 +25,10 @@ with DAG(
     default_args=default_args,
     description='End-to-end Sales Pipeline triggering Spark in Docker',
     schedule_interval='@daily',  # Runs once a day
-    start_date=datetime(2025, 1, 1),
-    catchup=False,
+    start_date=datetime(2026, 1, 1),
+    catchup=True,
     tags=['spark', 'etl', 'sales'],
+    max_active_runs=1   ,
 ) as dag:
 
     # 1. Data Creation (Running inside spark-etl container to access /opt/project)

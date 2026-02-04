@@ -49,7 +49,7 @@ spark.conf.set(
 # ----------------------------
 processed_path = f"abfss://processed@{account_name}.dfs.core.windows.net/sales/"
 
-df = spark.read.format("delta").load(processed_path)
+df = spark.read.format("parquet").load(processed_path)
 
 # Filter only current partition
 df = df.filter(
